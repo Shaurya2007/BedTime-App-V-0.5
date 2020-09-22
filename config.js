@@ -1,3 +1,6 @@
+import firebase from firebase
+
+
 const firebaseConfig = {
     apiKey: "AIzaSyCPEGt8yOkgnkFsyG16QcOLFQblwKmmB10",
     authDomain: "bedtime-900e7.firebaseapp.com",
@@ -10,3 +13,4 @@ const firebaseConfig = {
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+export default firebase.database()
